@@ -79,4 +79,40 @@ body::before{
     color: aliceblue;
 }
 
+.content form .remember-forget{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 10px 20px 0px;
+}
+
+.content form .remember-forget .remember-me{
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    justify-items: center;
+    gap: 10px;
+}
+
+.content form button{
+    border: 0.2px solid ;
+    color: rgba(126, 129, 197, 0.801);
+    background-color: black;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    height: 45px;
+    margin-bottom: 20px ;
+}
+
+#remember{
+    height: 15px;
+    width: 15px;
+    accent-color: rgba(126, 129, 197, 0.801);
+}
+
+a{
+    color: blueviolet;
+}
+
 
